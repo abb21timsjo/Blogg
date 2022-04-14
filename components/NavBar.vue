@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed w-full p-6 bg-white">
+  <nav class="w-full p-6 border-outset border-b-2 border-black Header">
     <div class="flex items-center justify-between">
 
       <!-- Mobile toggle -->
@@ -16,16 +16,16 @@
       </div>
 
       <!-- Navbar -->
-      <!-- <div class="hidden md:block">
+      <div class="hidden md:block">
         <ul class="flex space-x-8 text-sm font-sans">
-          <li><a href="#" class="active border-b-2 border-blue-500 pb-1">Home</a></li>
-          <li><a href="#" class="">Services</a></li>
-          <li><a href="#" class="">Features</a></li>
-          <li><a href="#" class="">FAQ</a></li>
-          <li><a href="#" class="">Contact</a></li>
+          <li><a href="#" class="active border-b-2 border-blue-500 pb-1 text-black">Home</a></li>
+          <li><a href="#" class="text-black">Services</a></li>
+          <li><a href="#" class="text-black">Features</a></li>
+          <li><a href="#" class="text-black">FAQ</a></li>
+          <li><a href="#" class="text-black">Contact</a></li>
           <li><a href="#" class="cta bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded text-white font-semibold">Sign Up</a></li>
         </ul>
-      </div> -->
+      </div>
 
       <!-- Dark Background Transition -->
       <transition
@@ -57,21 +57,20 @@
         </div>
 
         <ul class="divide-y font-sans">
-          <li><button @click="navigate('/')" class="my-4 inline-block">Food</button></li>
-          <li><button @click="navigate('/about-us')" class="my-4 inline-block">About</button></li>
+          <li><button @click="navigate('/')" class="my-4 inline-block text-black">Home</button></li>
+          <li><button @click="navigate('/chants')" class="my-4 inline-block text-black">chants</button></li>
+          <li><button @click="navigate('/about-us')" class="my-4 inline-block text-black">About</button></li>
+          <li><button @click="navigate('/Players')" class="my-4 inline-block text-black">Players</button></li>
         </ul>
 
       </aside>
 
       <!-- Header logo -->
       <div>
-        <h1 class="font-body text-4xl">My Food</h1>
+        <h1><img src="https://www.linkpicture.com/q/tottenham.png" class="logo"/> </h1>
       </div>
 
       <!-- Header logo -->
-      <div>
-        <h1>Mail</h1>
-      </div>
     </div>
   </nav>
 </template>
@@ -110,3 +109,11 @@ export default {
   }
 };
 </script>
+<style>
+.logo {
+    height: 50px;
+}
+.Header {
+    background-color: rgb(239,239,239);
+}
+</style>
