@@ -1,4 +1,5 @@
 <template>
+ <div>
 <div>
   <div class="box">
     <div class="w-1/2 bloggbox text-center text-xl xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl ">
@@ -10,28 +11,29 @@
         To<br> Dare <br> Is To <br> Do
       </p>
     </div>
-    <div class="litlebox2  w-1/4 pb-1/2">
-      <p>
-       Min Startelva
-      </p>
+    <div class="litlebox2 w-1/4 pb-1/2">
+      
     </div>
   </div> 
   <div class="box">
     <div class="arena w-1/2 pb-1/2">
       <img src="https://i2-prod.football.london/incoming/article18458590.ece/ALTERNATES/s1200c/0_GettyImages-1250936278.jpg">
     </div>
-    <div class="box1 w-1/2 pb-1/2">
-*
+    <div class="arena w-1/2 pb-1/2 h-1/2">
+    <img src="https://www.linkpicture.com/q/box_1.jpg">
     </div>
-    <div class="COYS xl:text-9xl md:text-7xl lg:text-7xl sm:text-4xl ">
-      COME ON YOU SPURS
+    <div class="COYS xl:text-9xl md:text-6xl lg:text-7xl sm:text-4xl ">
+      Come On You SPURS
     </div>
   </div>
   <div class="box">
     <div class="about-me w-3/4">
-      Målet med hemsidan är att sprida mina åsikter om Tottenham som clubb och andra clubbar i premier league.
+      <nuxt-content :document="markdown"></nuxt-content>
+
+   
+
     </div>
-    <div class="Mer w-1/3">
+    <div class="Mer w-1/3 text-center">
         <nuxt-link to="/about-us">
           Mer om Tottenham
         </nuxt-link>
@@ -40,9 +42,9 @@
   </div>
   <div class="box">
     <div class="w-1/4 fillbox">
-    <p class="play absolute"> Spelare </p>     
+    <p class="play absolute text-9xl "> Spelare </p>     
     </div>
-    <div class="w-1/4 fillbox"><img src="https://www.linkpicture.com/q/combined-tottenham-memories.png" class="memo"></div>
+    <div class="w-1/4 fillbox"><img src="https://www.linkpicture.com/q/combined-tottenham-memories.png" class="memo w-2/5"></div>
     <div class="w-1/4 fillbox"></div>
     <div class="w-1/4 fillbox1"></div>
   </div>
@@ -61,10 +63,10 @@
       </div>
     </div>
      <div class="box2"> 
-      <div class="playername w-1/2 text-7xl">
-      Dejan Kulusevski
+      <div class="playername w-1/2 xl:text-7xl md:text-6xl">
+      Kulusevski
       </div>
-      <div class="playername1 w-1/2 text-7xl">
+      <div class="playername1 w-1/2 xl:text-7xl md:text-6xl">
         Harry Kane
       </div>
      </div>
@@ -76,13 +78,13 @@
         </nuxt-link>
       </div>
       <div class="w-1/2 playerbox3">
-         <nuxt-link class="text-9xl" to="/Players">
+         <nuxt-link class="xl:text-9xl lg:text-8xl md:text-8xl text-center" to="/Players">
             Mer spelare
          </nuxt-link>
       </div>
     </div>
      <div class="box2"> 
-      <div class="playername w-1/2 text-7xl">
+      <div class="playername w-1/2 xl:text-7xl md:text-6xl">
         Hugo Lloris
       </div>
       <div class="playername1 w-1/2 text-7xl">
@@ -99,6 +101,7 @@
       </div>
      </div>
 </div>
+ </div>
 
 
 </template>
@@ -106,7 +109,7 @@
 <script>
 export default {
   async asyncData({$content}) {
-    let markdown = await $content('Harry').fetch()
+    let markdown = await $content('Tottenham').fetch()
     
     return {
       markdown
@@ -129,8 +132,6 @@ export default {
 }
 .box1 {
   background-color: #7f8364 ;
-  font-size: 500px;
-  color: black;
   border-style: solid;
   border-color: black;
   vertical-align: text-bottom;
@@ -153,7 +154,6 @@ body {
   padding-top: 100px;
   background-image: url(https://www.linkpicture.com/q/harry-kane-background.jpg);
   color: white;
-  font-size: 50px;
   text-align: center;
   box-shadow: 0px 3px 8px #000;
 }
@@ -174,7 +174,7 @@ body {
   position: absolute;
   z-index: 2;
 	align-items: flex-end;
-  padding-top: 35%;
+  margin-top: 30%;
 }
 .about-me {
   height: 500px;
@@ -183,6 +183,8 @@ body {
   border-style: solid;
   border-color: #000;
   border-width: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .Mer {
   height: 500px;
@@ -194,7 +196,7 @@ body {
   border-right-width: 2px;
   width: 600px;
   font-size: 70px;
-  padding-top: 300px;
+  padding-top: 150px;
   padding-left: 50px;
 }
 .bigbox {
@@ -228,8 +230,7 @@ body {
   border-right: 2px solid #000;
   }
   .play {
-    padding-top: 1100px ;
-    font-size: 200px;
+    padding-top: 1200px ;
   }
   .playername {
     height: 100px;

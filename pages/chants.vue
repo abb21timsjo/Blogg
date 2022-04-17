@@ -1,9 +1,11 @@
 <template>
-<div class="flex flex-row">
-    <div>
-        <img src="https://www.linkpicture.com/q/harry-kane-chant.png" class="border-solid border-black border-2 kane">
+ <div class="mx-24 md:mx-32 lg:mx-40 xl:mx-48 min-h-screen background">
+    <div class="flex flex-row">
+        <div>
+            <img src="https://www.linkpicture.com/q/harry-kane-chant.png" class="border-solid border-black border-2 kane">
+        </div>
     </div>
-</div>
+ </div>
 </template>
 <style>
 .kane {

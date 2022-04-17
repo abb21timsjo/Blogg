@@ -1,9 +1,11 @@
 <template>
-  <div class="flex flex-wrap justify-center text-white text-center ">
-    <div @click="goToPlayer(player.id)" class="w-80 m-4 flex justify-center" v-for="player in players" :key="player.id">
+ <div class="mx-24 md:mx-32 lg:mx-40 xl:mx-48 min-h-screen background">
+  <div class="flex flex-wrap justify-evenly text-white text-center">
+    <div @click="goToPlayer(player.id)" class="w-80 m-12 flex justify-center playerbackground" v-for="player in players" :key="player.id">
       <PlayerListItem :item="player"></PlayerListItem>
     </div>
   </div>
+ </div>
 </template>
 
 <script>
@@ -35,6 +37,10 @@ export default {
     font-size: 30px;
     text-align: center;
     padding-bottom: 5px;
+}
+.playerbackground {
+  background-image: url(https://www.linkpicture.com/q/kaki.jpg);
+   box-shadow: 0px 3px 8px #000;
 }
 
 </style>
