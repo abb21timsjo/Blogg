@@ -52,7 +52,6 @@
           <li><button @click="navigate('/')" class="my-4 inline-block text-black">Home</button></li>
           <li><button @click="navigate('/about-us')" class="my-4 inline-block text-black">About Tottenham</button></li>
           <li><button @click="navigate('/Players')" class="my-4 inline-block text-black">Players</button></li>
-          <li><button @click="navigate('/chants')" class="my-4 inline-block text-black">chants</button></li>
         </ul>
 
       </aside>
