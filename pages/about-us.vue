@@ -101,6 +101,9 @@ export default {
 .buttonsin {
     border-bottom: #000 2px solid;
 }
+.buttonsin:hover {
+  cursor: pointer;
+}
 .ToTMainText {
     font-size: 20px;
 }
@@ -117,4 +120,5 @@ export default {
     border-right: #000 2px solid;
     border-bottom: #000 2px solid;
 }
+
 </style>
