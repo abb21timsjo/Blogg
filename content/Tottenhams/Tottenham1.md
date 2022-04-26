@@ -1,15 +1,15 @@
 ---
 id: 1 
 image: https://cdne-totv8-prod.azureedge.net/media/3121/1921-fa-cup-a-2048.jpg
-title: Histroia 
+title: Historia 
 ---
 
 
 ---
 <br>
-<div> Från Start till Proffsklubb (1882-1908)</div>
+<div class="ToTLH"> Från Start till Proffsklubb (1882-1908)</div>
 <br>
-<div>
+<div class="ToTMainText">
     Sensommaren 1882 bildades klubben under namnet Hotspur FC av några grabbar från The Hotspur Cricket Club. Medlemmarna kom från de lokala skolorna Tottenham Grammar och St John's Middle Class. Skolpojkarna brukade ha sina möten under en gaslykta på Park Lane i närheten av där White Hart Lane ligger i dag. Namnet Hotspur härstammar från den engelska 1300-talskrigaren och Shakespearekaraktären Harry Hotspur, vars rykte som orädd hjälte och hetsporre skulle symbolisera klubbens anda. 
     <br>
     Den 30 september 1882 spelade klubben sin första fotbollsmatch mot den lokala klubben Radicals, som slutade 0–2. 1884 ändrades namnet till Tottenham Hotspur FC för att inte blandas ihop med London Hotspur. Den första tävlingsmatchen spelades 1885 i London Association Cup, där Tottenham besegrade St Albans med 5–2, och den 19 november 1887 mötte klubben Royal Arsenal för första gången och vann med 2–1. Tottenham spelade till en början vid Tottenham Marshes, men flyttade 1888 till Northumberland Park och tog sedan över ett fält vid sidan av puben White Hart vid Tottenham High Road. Den 4 september 1899 spelades den första matchen på klubbens nya hemvist White Hart Lane, som vanns mot Notts County med 3–1 inför omkring 5 000 åskådare, där David Copeland gjorde klubbens första hat trick. Inför julen 1895 blev klubben professionell, och blev en av klubbarna i Southern Football League 1896.
@@ -25,10 +25,10 @@ title: Histroia
 </div>
 <br>
 <br>
-<div> Krigs- och mellankrigstiden (1909-1949)</div>
+<div class="ToTLH"> Krigs- och mellankrigstiden (1909-1949)</div>
 <br>
 
-<div> 
+<div class="ToTMainText"> 
 Under åren fram till första världskrigets utbrott 1914 fick Tottenham kämpa för att undvika nedflyttning, och hamnade på sista plats 1914/15. När kriget rasade tog klubben paus och spelade endast i olika regionala ligor. Elva Tottenhamspelare dödades under militärtjänsten i kriget.
 <br>
 1919/20 tog klubben sig an ligafotboll igen, och trots sistaplaceringen i den senaste upplagan av serien innan kriget fick Tottenham en chans att vara kvar i högsta divisionen eftersom serien skulle utökas från 20 till 22 klubbar. Ligans ordförande John McKenna från Liverpool, som var nära vän med Arsenals ordförande Sir Harry Norris, argumenterade för att de båda sist placerade klubbarna i första divisionen – Chelsea (19:e) och Tottenham (20:e) – inte automatiskt skulle få stanna kvar. Efter viss diskussion valdes Chelsea att få stanna kvar, och en omröstning avgjorde vilken klubb som skulle få den sista lediga platsen; Tottenham (20:e i första divisionen), Wolverhampton Wanderers (fyra i andra divisionen), Arsenal (sexa i andra divisionen) eller den betydligt lägre placerade trion Nottingham Forest-Birmingham City-Hull City. Harry Norris Arsenal fick 18 röster, och samma dag dog även papegojan som Tottenham tagit med sig som maskot från en turné i Sydamerika 1909; dessa två slumpartade händelser gav upphov till klubbarnas rivalitet.
@@ -42,9 +42,9 @@ När andra världskriget bröt ut låg Tottenham på sjunde plats i andra divisi
 </div>
 <br>
 <br>
-<div> Tottenham med flera historiska titlar (1949-1974) </div>
+<div class="ToTLH"> Tottenham med flera historiska titlar (1949-1974) </div>
 <br>
-<div>
+<div class="ToTMainText">
 1949 blev Arthur Rowe tränare i Tottenham, som 1949/50 kom att vinna andra divisionen med klubben och säsongen därpå även ta hem högsta divisionen som nykomlingar – således blev klubben först i England att vinna ligan som nykomlingar. Stora stjärnor vid denna tid var Alf Ramsey, Ronnie Burgess, Ted Ditchburn, Len Duquemin, Sonny Walters och Bill Nicholson. Under säsongen hade klubben stått för ett antal storsegrar som 6–1 mot Stoke City, 5–1 mot Portsmouth och 7–0 mot Newcastle United.
 <br>
 
@@ -58,9 +58,9 @@ Därefter blev klubben mindre framgångsrik i ligan och fick i stället rikta in
 </div>
 <br>
 <br>
-<div> Från 1975 till konkurshotet 1991 </div>
+<div class="ToTLH"> Från 1975 till konkurshotet 1991 </div>
 <br>
-<div>
+<div class="ToTMainText">
 Fyra raka år utan någon ligaframgång gjorde att Nicholson fick lämna Tottenham under 1974/75, då Terry Neil tog över men fick lämna klubben efter två säsonger och ersattes av Keith Burkinshaw. Burkinshaws första säsong 1976/77 slutade med att klubben degraderades, men trots det fick Burkinshaw fortsatt förtroende. Klubbens stormålvakt Pat Jennings såldes till ärkerivalen Arsenal, och med en ung Glenn Hoddle som spelfördelare på mittfältet lyckas klubben ta sig tillbaka till högsta divisionen. Den 22 oktober 1977 vann Tottenham en hemmamatch mot Bristol Rovers med hela 9–0.
 <br>
 1978 som nykomling värvades argentinarna Ricardo Villa och Osvaldo Ardiles, och 1981 värvas den rutinerade målvakten Ray Clemence från Liverpool. 1981 vann Tottenham FA-cupen, efter seger mot Manchester City i den 100:e FA-cupfinalen i historien. 1982 lyckades klubben också försvara FA-cuptiteln genom att vinna mot Queens Park Rangers. Samma år gick klubben också till Ligacupfinal, men fick då se Liverpool vända och vinna i matchens två sista minuter, och i semifinalen av Cupvinnarcupen gick Barcelona som segrare.
@@ -78,9 +78,9 @@ Tottenham skapade fler rubriker vid denna tid; klubben fick stora ekonomiska pro
 </div>
 <br>
 <br>
-<div> Klubbens första 15 år i Premier League (1992–2006) </div>
+<div class="ToTLH"> Klubbens första 15 år i Premier League (1992–2006) </div>
 <br>
-<div>
+<div class="ToTMainText">
 Under den första FA Premier League-säsongen 1992/93 slutade Tottenham på åttonde plats med bland annat nyförvärvet Teddy Sheringham i laget. Klubben leddes av Doug Livermore och Ray Clemence, Terry Venables fick sparken som klubbdirektör av ordföranden Alan Sugar efter tvivelaktiga ekonomiska affärer. Sommaren 1993 blev den forna Tottenhamspelaren Osvaldo Ardiles ny tränare, och han uttalade Tottenham som "Tottingham". Ardiles första säsong som tränare i klubben slutade med en 15:e plats i ligan.
 <br>
 Efter VM i USA 1994 värvades den tyska världsmästaren Jürgen Klinsmann och även rumänerna Gheorghe Popescu och Ilie Dumitrescu. Ett anfallsinriktat Tottenham fick på grund av sin defensiv kämpa i botten av tabellen, och Ardiles fick sparken i oktober 1994. Ersättaren Gerry Francis lyckades avstyra en degradering och förde klubben upp till en sjundeplats i stället. Tottenham gick till semifinal i FA-cupen, men förlorade mot slutsegrarna Everton med 4–1. Efter säsongen såldes Nick Barmby till Middlesbrough, Popescu till Barcelona och klubbens bästa målskytt Klinsmann till Bayern München.
@@ -94,9 +94,9 @@ Dansken Frank Arnesen blev ny sportchef och den före detta franska förbundskap
 </div>
 <br>
 <br>
-<div> 2007 och framåt </div>
+<div class="ToTLH"> 2007 och framåt </div>
 <br>
-<div> 
+<div class="ToTMainText"> 
 Efter klubbens start av säsongen 2007/08 avskedades Martin Jol och ersattes av Juande Ramos, som värvades från Sevilla. Klubben slutade femma i ligan, och nyförvärvet Dimitar Berbatov blev bästa målskytt. Under andra halvan av säsongen kontrade Tottenham med att vinna Ligacupen efter finalseger mot Chelsea med 2–1 i februari 2008. Ramos fick dock sparken i oktober 2008 efter att klubben förlorat mot Udinese i Uefacupen och var förankrat i botten av Premier League; vidare accepterade Harry Redknapp att bli ny tränare för Tottenham. Fotbollsdirektören Damien Comolli avskedades också, efter kritik mot försäljningarna av Dimitar Berbatov och Robbie Keane. Tottenham återvände därmed till en "traditionell" setup med Redknapp som ansvarade för coachning och spelare. Klubben avslutade säsongen på åttonde plats, men för andra året i rad nåddes finalen i Ligacupen, som dock denna gång förlorades mot Manchester United.
 <br>
 Under sommaren 2009 lockade Redknapp ett antal spelare till klubben och säsongsstarten på 2009/10 inleddes på ett lika framgångsrikt sätt som den avslutades, vilket resulterade i en fjärdeplats och klubben fick därmed kvalplats till Champions League. För första gången sedan 1962 i en motsvarighet till dagens Champions League lyckades Tottenham ta sig till gruppspel efter kvalvinst mot schweiziska Young Boys. Gruppen vanns och Tottenham nådde slutligen kvartsfinal mot Real Madrid där man åkte ur efter 0–4 borta och 0–1 hemma.

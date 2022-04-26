@@ -2,11 +2,11 @@
  <div>
 <div>
   <div class="box">
-    <div class="w-1/2 bloggbox text-center text-xl xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl ">
-      <p>Tottenham</p> 
-      <p>bloggen</p>
+    <div class="w-1/2 bloggbox text-center text-xl xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl ">
+      Tottenham <br> 
+      bloggen
     </div>
-    <div class="litlebox1 w-1/4 xl:text-9xl lg:text-8xl md:text-7xl">
+    <div class="litlebox1 w-1/4 xl:text-8xl lg:text-7xl md:text-7xl">
       <p class="">
         To<br> Dare <br> Is To <br> Do
       </p>
@@ -15,14 +15,14 @@
       
     </div>
   </div> 
-  <div class="box">
+  <div class="box relative">
     <div class="arena w-1/2 pb-1/2">
       <img src="https://i2-prod.football.london/incoming/article18458590.ece/ALTERNATES/s1200c/0_GettyImages-1250936278.jpg">
     </div>
     <div class="arena w-1/2 pb-1/2 h-1/2">
     <img src="https://www.linkpicture.com/q/box_1.jpg">
     </div>
-    <div class="COYS xl:text-9xl md:text-6xl lg:text-7xl sm:text-4xl ">
+    <div class="xl:text-9xl md:text-6xl lg:text-7xl sm:text-4xl bottom-0 COYS">
       Come On You SPURS
     </div>
   </div>
@@ -125,10 +125,10 @@ export default {
   color: black;
   border-style: solid;
   border-color: black;
-  vertical-align: text-bottom;
-  padding-left: 20px;
-  padding-top: 350px;
   box-shadow: 0px 3px 8px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .box1 {
   background-color: #7f8364 ;
@@ -174,7 +174,11 @@ body {
   position: absolute;
   z-index: 2;
 	align-items: flex-end;
-  margin-top: 30%;
+  display: flex;
+  vertical-align: bottom;
+  text-align: center;
+  color: #efefef;
+  
 }
 .about-me {
   height: 500px;
